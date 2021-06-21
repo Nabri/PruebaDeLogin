@@ -76,3 +76,4 @@ C:\Users\Nabri\source\repos\PruebaDeLogin\obj\Debug\net5.0\PruebaDeLogin.dll
 C:\Users\Nabri\source\repos\PruebaDeLogin\obj\Debug\net5.0\ref\PruebaDeLogin.dll
 C:\Users\Nabri\source\repos\PruebaDeLogin\obj\Debug\net5.0\PruebaDeLogin.pdb
 C:\Users\Nabri\source\repos\PruebaDeLogin\obj\Debug\net5.0\PruebaDeLogin.genruntimeconfig.cache
+C:\Users\Nabri\source\repos\PruebaDeLogin\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
