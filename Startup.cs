@@ -32,6 +32,16 @@ namespace PruebaDeLogin
             services.AddIdentity<IdentityUser, IdentityRole>()
                .AddEntityFrameworkStores<PruebaDeLoginDbContext>();
 
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.Password.RequiredLength = 6; //Gets or sets the minimum length a password must be. Defaults to 6.
+                options.Password.RequiredUniqueChars = 0; //Gets or sets the minimum number of unique characters which a password must contain. Defaults to 1.
+                options.Password.RequireNonAlphanumeric = false; //Gets or sets a flag indicating if passwords must contain a non-alphanumeric character ASCII character. Defaults to true.
+                options.Password.RequireLowercase = false; //Gets or sets a flag indicating if passwords must contain a lower case ASCII character. Defaults to true.
+                options.Password.RequireUppercase = false; //Gets or sets a flag indicating if passwords must contain a upper case ASCII character. Defaults to true.
+                options.Password.RequireDigit = true; //Gets or sets a flag indicating if passwords must contain a digit. Defaults to true
+            });
+
             services.AddControllersWithViews();
         }
 
