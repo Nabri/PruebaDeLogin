@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PruebaDeLogin.Context;
+using PruebaDeLogin.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,7 +30,7 @@ namespace PruebaDeLogin
             services.AddDbContext<PruebaDeLoginDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddIdentity<IdentityUser, IdentityRole>()
+            services.AddIdentity<ApplicationUser, IdentityRole>()
                .AddEntityFrameworkStores<PruebaDeLoginDbContext>();
 
             services.Configure<IdentityOptions>(options =>

@@ -1,4 +1,3 @@
-C:\Users\Nabri\source\repos\PruebaDeLogin\obj\Debug\net5.0\PruebaDeLogin.csprojAssemblyReference.cache
 C:\Users\Nabri\source\repos\PruebaDeLogin\obj\Debug\net5.0\PruebaDeLogin.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Nabri\source\repos\PruebaDeLogin\obj\Debug\net5.0\PruebaDeLogin.AssemblyInfoInputs.cache
 C:\Users\Nabri\source\repos\PruebaDeLogin\obj\Debug\net5.0\PruebaDeLogin.AssemblyInfo.cs
